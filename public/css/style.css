@@ -7,7 +7,7 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Rubik', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
+background: pink center top no-repeat;
 background-size: cover;
 height: 100%;
 width: 100%;
@@ -158,3 +158,4 @@ a:visited,
 a:hover {
   color: #7EB6FF;
 }
+cd
