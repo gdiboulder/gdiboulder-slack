@@ -20,6 +20,12 @@
       "description": "Shared invite token used to get access. Leave blank if you don't want users to have to provide a token.",
       "value": "",
       "required": false
+    },
+    "MEETUP_URL": {
+      "description": "Meetup Url!",
+      "value": "",
+      "required": false
     }
+
   }
 }

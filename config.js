@@ -17,4 +17,6 @@ module.exports = {
   inviteToken: process.env.INVITE_TOKEN || null,
 
   locale: process.env.LOCALE || "en",
+
+  meetup: process.env.MEETUP_URL || 'http://gdiboulder.com/join',
 };

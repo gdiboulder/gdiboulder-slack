@@ -21,8 +21,8 @@ html
                 input(type="text", name="token", placeholder="#{__('ENTER_TOKEN')}")#slack-token.field
               input(type="submit", value="Join").submit
         .disclaimer
-          p By joining the Girl Develop It Boulder/Denver Slack group you agree to abide by our <a href="https://www.girldevelopit.com/code-of-conduct">Code of Conduct</a>.
-          p Don't forget to check us out on <a href="http://gdiboulder.com/join">MeetUp</a>, <a href="http://facebook.com/gdiboulder">Facebook</a>, <a href="http://twitter.com/gdiboulder">Twitter</a>, and <a href="http://instagram.com/gdiboulder">Instagram</a>!
+          p By joining the #{community} Slack group you agree to abide by our <a href="https://www.girldevelopit.com/code-of-conduct">Code of Conduct</a>.#{meetup}
+          p Don't forget to check us out on <a href="#{meetup}">MeetUp</a>, <a href="http://facebook.com/gdiboulder">Facebook</a>, <a href="http://twitter.com/gdiboulder">Twitter</a>, and <a href="http://instagram.com/gdiboulder">Instagram</a>!
     script.
       var tokenRequired = #{tokenRequired};
       var form = document.getElementById('join-form');
